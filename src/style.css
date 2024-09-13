@@ -1,0 +1,29 @@
+body{
+  background-color:Cyan	;
+}
+h1{ text-align:center;
+   color:HotPink;}
+.cart{
+  float:left;
+  margin:5px;
+  border:3px solid Black;  
+  width:552px;
+  height:370px;  
+}
+img{
+  position:absolute;
+}
+h2{
+  
+  position:relative;
+  color:Gainsboro;
+  opacity:0;
+  transition:1s;
+}
+h2:hover{
+  
+  position:relative;
+  color:Gainsboro;
+  opacity:3;
+  transition:2s;
+}
